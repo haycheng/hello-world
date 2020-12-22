@@ -1,20 +1,32 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T09:19:00.305Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="HXZ1gwZWsK8sVSaehTg5" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T09:28:21.376Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="fYZ2We5fOTu4jnrHn0H4" version="14.1.1" type="github">
   <diagram id="D0gBk_osZAn5xY3JK79d" name="Page-1">
     <mxGraphModel dx="1399" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="FiCA9tuz-xypxEPytwpz-1" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;如果待标注数据集&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;C0&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;不为空，则取出下一条待标注的记录&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;，及其特征值向量&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;f&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="50" width="239" height="70" as="geometry" />
+        <mxCell id="ZvC8fqZC6vN-arykomS9-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="FiCA9tuz-xypxEPytwpz-1" target="ZvC8fqZC6vN-arykomS9-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FiCA9tuz-xypxEPytwpz-1" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;如果待标注数据集&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;C0&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;为空，则执行结束；否则取出下一条待标注的记录&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;r&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;，及其特征值向量&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;f&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="294" y="70" width="239" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-2" target="ZvC8fqZC6vN-arykomS9-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-2" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;系统从已标注数据集C1中，找出与r距离最近的M条记录及其标注结果，展示给用户作为参考&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="180" width="239" height="70" as="geometry" />
+          <mxGeometry x="294" y="190" width="239" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-3" target="ZvC8fqZC6vN-arykomS9-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-3" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;用户根据r的特征值向量f，结合作为参考的已标注记录，对记录r预标注为x&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="320" width="239" height="70" as="geometry" />
+          <mxGeometry x="294" y="310" width="239" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-4" target="ZvC8fqZC6vN-arykomS9-6">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-4" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;用户根据r的特征值向量f，结合作为参考的已标注记录，对记录r预标注为x&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="450" width="239" height="70" as="geometry" />
+          <mxGeometry x="294" y="438" width="239" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-6" target="ZvC8fqZC6vN-arykomS9-8">
           <mxGeometry relative="1" as="geometry" />
@@ -33,16 +45,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-6" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;标注任务的类型&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="344" y="560" width="140" height="90" as="geometry" />
+          <mxGeometry x="344" y="559" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-7" target="ZvC8fqZC6vN-arykomS9-14">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="870" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-7" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;系统从已标注数据集C1中取出N条标注分数与x最接近的记录及其分数，给用户参考&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="470" y="720" width="210" height="70" as="geometry" />
+          <mxGeometry x="462" y="680" width="210" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-8" target="ZvC8fqZC6vN-arykomS9-14">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-8" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;系统从已标注数据集C1中随机取出N条标注为x的记录及其标签，给用户参考&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="160" y="720" width="210" height="70" as="geometry" />
+          <mxGeometry x="153" y="680" width="210" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="ZvC8fqZC6vN-arykomS9-14" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;用户根据r的特征值向量f，结合作为参考的已标注记录，对记录r预标注为x&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="294" y="870" width="239" height="70" as="geometry" />
+        <mxCell id="ZvC8fqZC6vN-arykomS9-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-14" target="ZvC8fqZC6vN-arykomS9-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-14" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;用户综合根据Pre-Refs和Post-Refs的参考，确定记录r最终的标注结果&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="870" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="ZvC8fqZC6vN-arykomS9-15" target="FiCA9tuz-xypxEPytwpz-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="1080" />
+              <mxPoint x="720" y="1080" />
+              <mxPoint x="720" y="30" />
+              <mxPoint x="414" y="30" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZvC8fqZC6vN-arykomS9-15" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;用户综合根据Pre-Refs和Post-Refs的参考，确定记录r最终的标注结果&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="289" y="980" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
