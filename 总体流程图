@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-22T09:02:10.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="JLiqUggoieBkznMvG0G1" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-22T09:02:21.659Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="UR8ez3EnKKVGV2jfSuXN" version="14.1.1" type="github">
   <diagram id="QQC03q2IZmbe3Td8zILs" name="Page-1">
     <mxGraphModel dx="1399" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="H98rR3xvU4V56QvBvIC1-1" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;确定待标注数据集&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;C0&lt;/span&gt;&lt;span style=&quot;font-size: 12.0pt&quot;&gt;，以及标注所用特征集&lt;/span&gt;&lt;span lang=&quot;EN-US&quot; style=&quot;font-size: 12.0pt ; font-family: &amp;#34;calibri&amp;#34; , sans-serif&quot;&gt;F&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="300" y="37" width="230" height="70" as="geometry" />
+          <mxGeometry x="300" y="35" width="230" height="70" as="geometry" />
         </mxCell>
         <mxCell id="H98rR3xvU4V56QvBvIC1-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="H98rR3xvU4V56QvBvIC1-2" target="H98rR3xvU4V56QvBvIC1-3">
           <mxGeometry relative="1" as="geometry" />
