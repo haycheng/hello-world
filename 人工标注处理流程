@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T08:25:31.621Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="QuIYQaZXGjqt9QzNU5Ue" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-23T08:25:43.978Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="6giAX8affqEwopNDRr3n" version="14.1.1" type="github">
   <diagram id="D0gBk_osZAn5xY3JK79d" name="Page-1">
     <mxGraphModel dx="1399" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -43,7 +43,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="ZvC8fqZC6vN-arykomS9-6" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;标注任务的类型&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="ZvC8fqZC6vN-arykomS9-6" value="&lt;span style=&quot;font-size: 12.0pt&quot;&gt;标注任务的类型？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="339.5" y="590" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="ZvC8fqZC6vN-arykomS9-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="ZvC8fqZC6vN-arykomS9-7" edge="1">
