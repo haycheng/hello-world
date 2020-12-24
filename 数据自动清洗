@@ -1,61 +1,61 @@
-<mxfile host="app.diagrams.net" modified="2020-12-23T03:16:20.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="6btNWN73VRNyScoxDkIC" version="14.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T03:28:03.585Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="uZB6XW-CgzXil9Iahlpo" version="14.1.2" type="github">
   <diagram id="y1kJXVXq97pW3-UMs6KV" name="Page-1">
-    <mxGraphModel dx="1399" dy="774" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1227" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="EyhYL90Sdaoeq4C6-v5r-1" target="LFU1XUfUKmjmBhlbGgGU-1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="EyhYL90Sdaoeq4C6-v5r-1" target="LFU1XUfUKmjmBhlbGgGU-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="EyhYL90Sdaoeq4C6-v5r-1" value="将数据平均分成K份" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="41" width="120" height="33" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-1" target="LFU1XUfUKmjmBhlbGgGU-2">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-1" target="LFU1XUfUKmjmBhlbGgGU-2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-1" value="依次取出其中一份数据作为测试集，剩余的K-1份作为训练集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-1" value="依次取出其中一份数据作为测试集，剩余的K-1份作为训练集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="109" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-2" target="LFU1XUfUKmjmBhlbGgGU-3">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-2" target="LFU1XUfUKmjmBhlbGgGU-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-2" value="用K-1份数据来训练选定的算法，得到算法的模型" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-2" value="用K-1份数据来训练选定的算法，得到算法的模型" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="196" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-3" target="LFU1XUfUKmjmBhlbGgGU-4">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-3" target="LFU1XUfUKmjmBhlbGgGU-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-3" target="LFU1XUfUKmjmBhlbGgGU-5">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-3" target="LFU1XUfUKmjmBhlbGgGU-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-3" value="利用模型对测试集中每条记录进行预测，得到预测结果" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-3" value="利用模型对测试集中每个样本进行预测，得到预测结果" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="283" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-4" target="LFU1XUfUKmjmBhlbGgGU-6">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-4" target="LFU1XUfUKmjmBhlbGgGU-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-4" value="对于分类：找出模型预测与人工标注不一致的记录，计算预测分值到用户标注的标签边界的最小差值t" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-4" value="对于分类：找出模型预测与人工标注不一致的样本，计算预测分值到用户标注的标签边界的最小差值t" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="224" y="385" width="190" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-5" target="LFU1XUfUKmjmBhlbGgGU-6">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-5" target="LFU1XUfUKmjmBhlbGgGU-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-5" value="对于回归：计算每条记录的模型预测值与用户标注值之差t" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-5" value="对于回归：计算每个样本的模型预测值与用户标注值之差t" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="450" y="385" width="140" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-6" target="LFU1XUfUKmjmBhlbGgGU-7">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-6" target="LFU1XUfUKmjmBhlbGgGU-7" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-6" value="设定阈值T，对于t &amp;gt; T的记录，标记为当前轮的噪声数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-6" value="设定阈值T，对于t &amp;gt; T的样本，标记为当前轮的噪声数据" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="360" y="487" width="120" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="LFU1XUfUKmjmBhlbGgGU-7" target="LFU1XUfUKmjmBhlbGgGU-8">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="LFU1XUfUKmjmBhlbGgGU-7" target="LFU1XUfUKmjmBhlbGgGU-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-7" value="对剩余的K-1份数据，依次将其作为测试集，重复上述步骤，最终得到K份噪声数据集合" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-7" value="对剩余的K-1份数据，依次将其作为测试集，重复上述步骤，最终得到K份噪声数据集合" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="332.5" y="571" width="175" height="55" as="geometry" />
         </mxCell>
-        <mxCell id="LFU1XUfUKmjmBhlbGgGU-8" value="将所有噪声数据从标注结果中剔除，得到最终的标注数据集" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="LFU1XUfUKmjmBhlbGgGU-8" value="将所有噪声数据从标注结果中剔除，得到最终的标注数据集" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="332.5" y="665" width="175" height="40" as="geometry" />
         </mxCell>
       </root>
