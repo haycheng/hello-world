@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-12-24T03:23:12.995Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="-tCNovGuTrqgBMj6BnnF" version="14.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-12-24T03:24:48.375Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36" etag="4YY9fVmMgjYSNokCqK4r" version="14.1.2" type="github">
   <diagram id="D0gBk_osZAn5xY3JK79d" name="Page-1">
     <mxGraphModel dx="1227" dy="686" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -120,11 +120,11 @@
         <mxCell id="gjhlCqMRZweg-40Slfom-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gjhlCqMRZweg-40Slfom-3" target="gjhlCqMRZweg-40Slfom-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="gjhlCqMRZweg-40Slfom-3" value="&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;综合Pre-Refs和Post-Refs的参考，是否修改预标注x？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="337" y="850" width="153.5" height="90" as="geometry" />
+        <mxCell id="gjhlCqMRZweg-40Slfom-3" value="&lt;span style=&quot;font-family: &amp;#34;calibri&amp;#34; , sans-serif ; font-size: 16px&quot;&gt;综合Pre-Refs和Post-Refs的参考，用户是否修改预标注x？&lt;/span&gt;" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="332.5" y="850" width="163" height="90" as="geometry" />
         </mxCell>
         <mxCell id="gjhlCqMRZweg-40Slfom-4" value="&lt;font face=&quot;calibri, sans-serif&quot;&gt;&lt;span style=&quot;font-size: 16px&quot;&gt;用户确定样本s最终的标注结果&lt;/span&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="298" y="981" width="231" height="40" as="geometry" />
+          <mxGeometry x="298.5" y="981" width="231" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z0leX03wlz_Y9bW7IOJf-1" value="&lt;span style=&quot;font-size: 14px&quot;&gt;否&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="1">
           <mxGeometry x="414" y="960" as="geometry">
